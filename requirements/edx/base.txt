@@ -765,7 +765,7 @@ multidict==6.1.0
     # via
     #   aiohttp
     #   yarl
-mysqlclient==2.2.6
+mysqlclient==2.2.0
     # via
     #   -r requirements/edx/kernel.in
     #   openedx-forum
