@@ -237,7 +237,7 @@ DATABASES:
         NAME: edxapp
         OPTIONS:
             isolation_level: read committed
-        PASSWORD: password
+        PASSWORD: password_ERROR 1819 (HY000)
         PORT: '3306'
         USER: edxapp001
     read_replica:
@@ -247,7 +247,7 @@ DATABASES:
         NAME: edxapp
         OPTIONS:
             isolation_level: read committed
-        PASSWORD: password
+        PASSWORD: password_ERROR 1819 (HY000)
         PORT: '3306'
         USER: edxapp001
     student_module_history:
@@ -257,7 +257,7 @@ DATABASES:
         NAME: edxapp_csmh
         OPTIONS:
             isolation_level: read committed
-        PASSWORD: password
+        PASSWORD: password_ERROR 1819 (HY000)
         PORT: '3306'
         USER: edxapp001
 DATA_DIR: /edx/var/edxapp
